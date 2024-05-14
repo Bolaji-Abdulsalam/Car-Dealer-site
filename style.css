@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.main {
+    background: black;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    padding: 20px;
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li a:hover {
+    color: red;
+}
+
+.navbar li a {
+    padding: 20px 35px;
+    text-decoration: none;
+    color: bisque;
+    transition: 0.5s;
+}
+
+.search input {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.search input a {
+    color: white;
+}
+.search button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid red;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+.search button a {
+    text-decoration: none;
+    color: white;
+}
+
+.flexcol {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.col {
+    width: 70%;
+    padding: 20px;
+    margin-top: 90px;
+    color: white;
+}
+
+.col h1 {
+    padding: 5px;
+    font-size: 60px;
+}
+
+.redtext {
+    color: red;
+}
+
+.col p {
+    padding: 10px;
+}
+
+.col button {
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.col button a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+.col button:hover {
+    background-color: transparent;
+    border: 1px solid lightgray;
+}
+
+.form-col {
+    background-color: transparent;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 23%;
+    padding: 20px;
+    border: 1px solid wheat;
+    border-radius: 20px;
+    height: 60vh;
+}
+
+.form-col input {
+    padding: 10px 10px 10px 0;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 70%;
+    background: transparent;
+    color: white;
+}
+
+
+.submit {
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.submit:hover {
+    background-color: gray;
+}
+.form-col p {
+    padding: 10px;
+}
+
